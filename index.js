@@ -4,12 +4,13 @@ const dotenv = require("dotenv").config()
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('Hello from render.com') 
+    res.send('Comming soon !! 🥰 ') 
   })
 app.post("/" , (req,res)=>{
     res.json(
-        {"message" : "your body has been sent successfully " , 
-        "body" : req.body }
+      {
+        "message " : "errur"
+      }
     )
 })
   
